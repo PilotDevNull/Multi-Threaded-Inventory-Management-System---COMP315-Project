@@ -22,6 +22,17 @@ Andiswa Hlengwa - 221002430
 
 ### Bonus — GUI Application
 > **The Graphical User Interface (GUI) is a bonus component and is incomplete.** It was developed as an additional effort beyond the project requirements. It may contain missing features, visual bugs, or incomplete functionality. It is provided as-is and should **not** be used as the basis for project assessment.
+> <img width="2556" height="1367" alt="Screenshot 2026-07-29 184027" src="https://github.com/user-attachments/assets/930bba7f-fdd5-4e2d-9db5-416a0a87b896" />
+<img width="1459" height="929" alt="Screenshot 2026-07-29 184105" src="https://github.com/user-attachments/assets/89d24f6a-e24d-4a19-9f08-818467f71e01" />
+<img width="2546" height="1366" alt="Screenshot 2026-07-29 184119" src="https://github.com/user-attachments/assets/651f600e-a20b-45be-bb48-30952063f498" />
+<img width="2545" height="1360" alt="Screenshot 2026-07-29 184129" src="https://github.com/user-attachments/assets/cf3f4eea-62bc-4c43-8ac7-c7855c120037" />
+<img width="2554" height="1366" alt="Screenshot 2026-07-29 184158" src="https://github.com/user-attachments/assets/2a35cc6d-2530-41f6-94da-e4db83519c2d" />
+<img width="2556" height="1357" alt="Screenshot 2026-07-29 184206" src="https://github.com/user-attachments/assets/f41b7d4c-c62a-4a10-935e-8a92b2c56b5c" />
+<img width="2559" height="1394" alt="Screenshot 2026-07-29 184219" src="https://github.com/user-attachments/assets/4a0f61f7-3ab6-4fd5-9606-b91372c2021b" />
+<img width="2550" height="1362" alt="Screenshot 2026-07-29 184237" src="https://github.com/user-attachments/assets/7064b95a-c687-4460-bcc9-07d1e106d4ad" />
+<img width="2555" height="1357" alt="Screenshot 2026-07-29 184246" src="https://github.com/user-attachments/assets/8e55d266-282f-4e35-9cf9-f308afaf16bf" />
+<img width="2559" height="1380" alt="Screenshot 2026-07-29 184259" src="https://github.com/user-attachments/assets/25b6c022-a28d-4d0c-8573-d78489775a3d" />
+
 
 ### AI Usage Disclaimer
 > Portions of this project made use of AI-assisted tools (such as GitHub Copilot or similar) during development, primarily for code suggestions, boilerplate generation, and debugging assistance. All code was reviewed, understood, and integrated by the group members. The design decisions, logic, and overall architecture remain the work of Group Twelve Software Solutions.
