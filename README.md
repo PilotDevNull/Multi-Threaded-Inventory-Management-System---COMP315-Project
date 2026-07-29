@@ -1,18 +1,19 @@
 # COMP315 Final Phase — Group Twelve Software Solutions
 # Group Members:
-Member Name	- Student ID
-Yahya Bobat	- 223020664
-Jawad Kachbal -	223037045
-Yusuf Sheikh -	224068106
-Mahomed Valli Mahomed -	224005878
-Muhammad Varachia	- 224004509
-Kiyan Krishna -	224115592
-Andiswa Hlengwa - 221002430
+Member Name	- Student ID  
+Yahya Bobat	- 223020664  
+Jawad Kachbal -	223037045  
+Yusuf Sheikh -	224068106  
+Mahomed Valli Mahomed -	224005878  
+Muhammad Varachia	- 224004509  
+Kiyan Krishna -	224115592  
+Andiswa Hlengwa - 221002430  
 
-**Project Name:** Nexus Logistics Inventory Management System
-**Module:** COMP315
-**Group:** Group Twelve Software Solutions
-**Group:** See Final Report For more Information
+**Project Name:** Nexus Logistics Inventory Management System  
+**Module:** COMP315  
+**Group:** Group Twelve Software Solutions  
+
+**See Final Report for More Information** 
 
 ---
 
