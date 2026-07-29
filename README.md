@@ -21,6 +21,16 @@ Andiswa Hlengwa - 221002430
 
 ### Primary Submission — CLI Application
 > **The Command Line Interface (CLI) application is the main and official submission for this project.** All core functionality, features, and grading criteria are implemented and demonstrated through the CLI. Please refer to the CLI when evaluating the submission.
+<img width="592" height="581" alt="Screenshot 2026-07-29 185054" src="https://github.com/user-attachments/assets/9dc2410b-c001-44f8-a6e0-05dfc62774a2" />
+<img width="1098" height="582" alt="Screenshot 2026-07-29 185104" src="https://github.com/user-attachments/assets/476817b0-6152-4e8c-a9a4-799297492357" />
+<img width="572" height="576" alt="Screenshot 2026-07-29 185120" src="https://github.com/user-attachments/assets/49b78081-bde2-4b33-9b78-e1a94ed21f51" />
+<img width="1000" height="582" alt="Screenshot 2026-07-29 185145" src="https://github.com/user-attachments/assets/e177dd37-fe40-452f-a481-45567f44d492" />
+<img width="579" height="574" alt="Screenshot 2026-07-29 185200" src="https://github.com/user-attachments/assets/7286a009-2c81-4ddd-a7b4-abaacd2b92eb" />
+<img width="559" height="582" alt="Screenshot 2026-07-29 185222" src="https://github.com/user-attachments/assets/f2d01326-aa86-4e6a-809f-3505a45faee4" />
+<img width="562" height="578" alt="Screenshot 2026-07-29 185237" src="https://github.com/user-attachments/assets/fc85bdd8-3a3f-46fb-8248-970fbcd5c5c1" />
+<img width="519" height="1286" alt="Screenshot 2026-07-29 185250" src="https://github.com/user-attachments/assets/65899b5a-5a8c-4096-a3e7-344281ea8067" />
+<img width="631" height="734" alt="Screenshot 2026-07-29 185311" src="https://github.com/user-attachments/assets/9617ba2e-a894-4095-b392-2cd4c22d3060" />
+
 
 ### Bonus — GUI Application
 > **The Graphical User Interface (GUI) is a bonus component and is incomplete.** It was developed as an additional effort beyond the project requirements. It may contain missing features, visual bugs, or incomplete functionality. It is provided as-is and should **not** be used as the basis for project assessment.
