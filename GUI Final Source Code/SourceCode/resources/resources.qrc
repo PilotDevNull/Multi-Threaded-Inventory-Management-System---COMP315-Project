@@ -1,0 +1,16 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>style.qss</file>
+    <file alias="app/icon.png">../assets/logo/nexus_logistics_logo.png</file>
+    <file alias="icons/dashboard.png">../assets/icons/dashboard.png</file>
+    <file alias="icons/inventory.png">../assets/icons/inventory.png</file>
+    <file alias="icons/orders.png">../assets/icons/orders.png</file>
+    <file alias="icons/analytics.png">../assets/icons/analytics.png</file>
+    <file alias="icons/logs.png">../assets/icons/logs.png</file>
+    <file alias="icons/settings.png">../assets/icons/settings.png</file>
+    <file alias="dashboard/metrics/total-products.png">../assets/card_patterns/blue_products_pattern.png</file>
+    <file alias="dashboard/metrics/total-stock-units.png">../assets/card_patterns/teal_stock_pattern.png</file>
+    <file alias="dashboard/metrics/low-stock-items.png">../assets/card_patterns/orange_lowstock_pattern.png</file>
+    <file alias="dashboard/metrics/today-revenue.png">../assets/card_patterns/gray_revenue_pattern.png</file>
+</qresource>
+</RCC>
