@@ -1,0 +1,12 @@
+Group Twelve Software Solutions COMP315 Project
+NexusLogistics GUI Source Code
+
+How to Run: 
+1. Download QT Creator
+2. Import the SourceCode Folder
+3. Select the CMakeLists.txt
+4. Configure Project and Build to Run
+
+
+Alternatively, please run the Compiled Version 
+See Root Folder for More Details. 
