@@ -1,0 +1,2358 @@
+# depslib dependency file v1.0
+1771621024 source:c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project\main.cpp
+	<iostream>
+	<vector>
+	<memory>
+	<thread>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"ThreadHandler.h"
+
+1771620877 c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project\inventorysystem.h
+	<map>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1771620535 c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project\product.h
+	<string>
+
+1771620690 c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project\taxableproduct.h
+	"Product.h"
+
+1771620787 c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project\discountedproduct.h
+	"Product.h"
+
+1771620962 c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project\threadhandler.h
+	<thread>
+	<atomic>
+	"InventorySystem.h"
+
+1771620830 source:c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1771620919 source:c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project\inventorysystem.cpp
+	"InventorySystem.h"
+	<iostream>
+
+1771620594 source:c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project\product.cpp
+	"Product.h"
+
+1771620740 source:c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1771620992 source:c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project\threadhandler.cpp
+	"ThreadHandler.h"
+	<iostream>
+	<random>
+	<chrono>
+
+1771620830 source:c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project v1\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1771620787 c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project v1\discountedproduct.h
+	"Product.h"
+
+1771620535 c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project v1\product.h
+	<string>
+
+1771620919 source:c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project v1\inventorysystem.cpp
+	"InventorySystem.h"
+	<iostream>
+
+1771620877 c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project v1\inventorysystem.h
+	<map>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1771621024 source:c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project v1\main.cpp
+	<iostream>
+	<vector>
+	<memory>
+	<thread>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"ThreadHandler.h"
+
+1771620690 c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project v1\taxableproduct.h
+	"Product.h"
+
+1771620962 c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project v1\threadhandler.h
+	<thread>
+	<atomic>
+	"InventorySystem.h"
+
+1771620594 source:c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project v1\product.cpp
+	"Product.h"
+
+1771620740 source:c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project v1\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1771620992 source:c:\users\thinkpad t14\desktop\work\uni\year 4 semester 1\comp 315\group project\comp315 project v1\threadhandler.cpp
+	"ThreadHandler.h"
+	<iostream>
+	<random>
+	<chrono>
+
+1771918034 source:c:\dev\university\year3\s1\comp315 project v1\comp315 project v1\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1771918034 c:\dev\university\year3\s1\comp315 project v1\comp315 project v1\discountedproduct.h
+	"Product.h"
+
+1771918034 c:\dev\university\year3\s1\comp315 project v1\comp315 project v1\product.h
+	<string>
+
+1771918034 source:c:\dev\university\year3\s1\comp315 project v1\comp315 project v1\inventorysystem.cpp
+	"InventorySystem.h"
+	<iostream>
+
+1771918034 c:\dev\university\year3\s1\comp315 project v1\comp315 project v1\inventorysystem.h
+	<map>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1771918034 source:c:\dev\university\year3\s1\comp315 project v1\comp315 project v1\product.cpp
+	"Product.h"
+
+1771918034 source:c:\dev\university\year3\s1\comp315 project v1\comp315 project v1\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1771918034 c:\dev\university\year3\s1\comp315 project v1\comp315 project v1\taxableproduct.h
+	"Product.h"
+
+1771918034 source:c:\dev\university\year3\s1\comp315 project v1\comp315 project v1\threadhandler.cpp
+	"ThreadHandler.h"
+	<iostream>
+	<random>
+	<chrono>
+
+1771918034 c:\dev\university\year3\s1\comp315 project v1\comp315 project v1\threadhandler.h
+	<thread>
+	<atomic>
+	"InventorySystem.h"
+
+1772000459 source:c:\users\israfeel yusuf\downloads\group twelve software solutions ltd comp315 project proposal\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1772000459 c:\users\israfeel yusuf\downloads\group twelve software solutions ltd comp315 project proposal\discountedproduct.h
+	"Product.h"
+
+1772000459 c:\users\israfeel yusuf\downloads\group twelve software solutions ltd comp315 project proposal\product.h
+	<string>
+
+1772000459 source:c:\users\israfeel yusuf\downloads\group twelve software solutions ltd comp315 project proposal\inventorysystem.cpp
+	"InventorySystem.h"
+	<iostream>
+
+1772000459 c:\users\israfeel yusuf\downloads\group twelve software solutions ltd comp315 project proposal\inventorysystem.h
+	<map>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1772001378 source:c:\users\israfeel yusuf\downloads\group twelve software solutions ltd comp315 project proposal\main.cpp
+	<iostream>
+	<vector>
+	<memory>
+	<thread>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"ThreadHandler.h"
+
+1772000459 c:\users\israfeel yusuf\downloads\group twelve software solutions ltd comp315 project proposal\taxableproduct.h
+	"Product.h"
+
+1772000459 c:\users\israfeel yusuf\downloads\group twelve software solutions ltd comp315 project proposal\threadhandler.h
+	<thread>
+	<atomic>
+	"InventorySystem.h"
+
+1772000459 source:c:\users\israfeel yusuf\downloads\group twelve software solutions ltd comp315 project proposal\product.cpp
+	"Product.h"
+
+1772000459 source:c:\users\israfeel yusuf\downloads\group twelve software solutions ltd comp315 project proposal\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1772000459 source:c:\users\israfeel yusuf\downloads\group twelve software solutions ltd comp315 project proposal\threadhandler.cpp
+	"ThreadHandler.h"
+	<iostream>
+	<random>
+	<chrono>
+
+1772006092 source:c:\dev\university\year3\s1\group twelve software solutions ltd comp315 project proposal final\group twelve software solutions ltd comp315 project proposal\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1772006092 c:\dev\university\year3\s1\group twelve software solutions ltd comp315 project proposal final\group twelve software solutions ltd comp315 project proposal\discountedproduct.h
+	"Product.h"
+
+1772006092 c:\dev\university\year3\s1\group twelve software solutions ltd comp315 project proposal final\group twelve software solutions ltd comp315 project proposal\product.h
+	<string>
+
+1772006092 source:c:\dev\university\year3\s1\group twelve software solutions ltd comp315 project proposal final\group twelve software solutions ltd comp315 project proposal\inventorysystem.cpp
+	"InventorySystem.h"
+	<iostream>
+
+1772006092 c:\dev\university\year3\s1\group twelve software solutions ltd comp315 project proposal final\group twelve software solutions ltd comp315 project proposal\inventorysystem.h
+	<map>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1772006631 source:c:\dev\university\year3\s1\group twelve software solutions ltd comp315 project proposal final\group twelve software solutions ltd comp315 project proposal\main.cpp
+	<iostream>
+	<vector>
+	<memory>
+	<thread>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+
+1772006092 c:\dev\university\year3\s1\group twelve software solutions ltd comp315 project proposal final\group twelve software solutions ltd comp315 project proposal\taxableproduct.h
+	"Product.h"
+
+1772006092 source:c:\dev\university\year3\s1\group twelve software solutions ltd comp315 project proposal final\group twelve software solutions ltd comp315 project proposal\product.cpp
+	"Product.h"
+
+1772006092 source:c:\dev\university\year3\s1\group twelve software solutions ltd comp315 project proposal final\group twelve software solutions ltd comp315 project proposal\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1773258037 source:c:\users\pilotdrake1\downloads\phase two project v1\phase two project v1\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1773258037 c:\users\pilotdrake1\downloads\phase two project v1\phase two project v1\discountedproduct.h
+	"Product.h"
+
+1773258037 c:\users\pilotdrake1\downloads\phase two project v1\phase two project v1\product.h
+	<string>
+
+1773258037 source:c:\users\pilotdrake1\downloads\phase two project v1\phase two project v1\inventorysystem.cpp
+	"InventorySystem.h"
+	<iostream>
+
+1773258037 c:\users\pilotdrake1\downloads\phase two project v1\phase two project v1\inventorysystem.h
+	<map>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1773258037 source:c:\users\pilotdrake1\downloads\phase two project v1\phase two project v1\product.cpp
+	"Product.h"
+
+1773258037 source:c:\users\pilotdrake1\downloads\phase two project v1\phase two project v1\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1773258037 c:\users\pilotdrake1\downloads\phase two project v1\phase two project v1\taxableproduct.h
+	"Product.h"
+
+1773265644 source:c:\users\pilotdrake1\downloads\phase two project v1\phase two project v1\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<memory>
+	<thread>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+
+1773258037 source:c:\users\pilotdrake1\desktop\university\comp315\practicals\phase two project v1\phase two project v1\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1773258037 c:\users\pilotdrake1\desktop\university\comp315\practicals\phase two project v1\phase two project v1\discountedproduct.h
+	"Product.h"
+
+1773258037 c:\users\pilotdrake1\desktop\university\comp315\practicals\phase two project v1\phase two project v1\product.h
+	<string>
+
+1773288151 source:c:\users\pilotdrake1\desktop\university\comp315\practicals\phase two project v1\phase two project v1\inventorysystem.cpp
+	"InventorySystem.h"
+	<iostream>
+
+1773258037 c:\users\pilotdrake1\desktop\university\comp315\practicals\phase two project v1\phase two project v1\inventorysystem.h
+	<map>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1773258037 source:c:\users\pilotdrake1\desktop\university\comp315\practicals\phase two project v1\phase two project v1\product.cpp
+	"Product.h"
+
+1773258037 source:c:\users\pilotdrake1\desktop\university\comp315\practicals\phase two project v1\phase two project v1\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1773258037 c:\users\pilotdrake1\desktop\university\comp315\practicals\phase two project v1\phase two project v1\taxableproduct.h
+	"Product.h"
+
+1773297374 source:c:\users\223037045\downloads\phase two project v1\phase two project v1\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1773297374 c:\users\223037045\downloads\phase two project v1\phase two project v1\discountedproduct.h
+	"Product.h"
+
+1773297374 c:\users\223037045\downloads\phase two project v1\phase two project v1\product.h
+	<string>
+
+1773305423 source:c:\users\223037045\downloads\phase two project v1\phase two project v1\inventorysystem.cpp
+	"InventorySystem.h"
+	<iostream>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<fstream>
+	<string>
+
+1773305423 c:\users\223037045\downloads\phase two project v1\phase two project v1\inventorysystem.h
+	<map>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1773309299 source:c:\users\223037045\downloads\phase two project v1\phase two project v1\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<memory>
+	<thread>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+
+1773297374 c:\users\223037045\downloads\phase two project v1\phase two project v1\taxableproduct.h
+	"Product.h"
+
+1773297374 source:c:\users\223037045\downloads\phase two project v1\phase two project v1\product.cpp
+	"Product.h"
+
+1773297374 source:c:\users\223037045\downloads\phase two project v1\phase two project v1\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1773297374 source:c:\users\223037045\desktop\phase two project v2\phase two project v2\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1773297374 c:\users\223037045\desktop\phase two project v2\phase two project v2\discountedproduct.h
+	"Product.h"
+
+1773297374 c:\users\223037045\desktop\phase two project v2\phase two project v2\product.h
+	<string>
+
+1773305422 source:c:\users\223037045\desktop\phase two project v2\phase two project v2\inventorysystem.cpp
+	"InventorySystem.h"
+	<iostream>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<fstream>
+	<string>
+
+1773305422 c:\users\223037045\desktop\phase two project v2\phase two project v2\inventorysystem.h
+	<map>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1773297374 c:\users\223037045\desktop\phase two project v2\phase two project v2\taxableproduct.h
+	"Product.h"
+
+1773309857 source:c:\users\223037045\desktop\phase two project v2\phase two project v2\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<memory>
+	<thread>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+
+1773297374 source:c:\users\223037045\desktop\phase two project v2\phase two project v2\product.cpp
+	"Product.h"
+
+1773297374 source:c:\users\223037045\desktop\phase two project v2\phase two project v2\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1773297374 source:c:\users\inscape\downloads\phase two project v2\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1773297374 c:\users\inscape\downloads\phase two project v2\discountedproduct.h
+	"Product.h"
+
+1773297374 c:\users\inscape\downloads\phase two project v2\product.h
+	<string>
+
+1773305422 source:c:\users\inscape\downloads\phase two project v2\inventorysystem.cpp
+	"InventorySystem.h"
+	<iostream>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<fstream>
+	<string>
+
+1773305422 c:\users\inscape\downloads\phase two project v2\inventorysystem.h
+	<map>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1773297374 c:\users\inscape\downloads\phase two project v2\taxableproduct.h
+	"Product.h"
+
+1773309857 source:c:\users\inscape\downloads\phase two project v2\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<memory>
+	<thread>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+
+1773297374 source:c:\users\inscape\downloads\phase two project v2\product.cpp
+	"Product.h"
+
+1773297374 source:c:\users\inscape\downloads\phase two project v2\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1773326996 source:c:\users\inscape\downloads\phase two project v2\order.cpp
+	<iostream>
+	"Order.h"
+	"InventorySystem.h"
+
+1773326841 c:\users\inscape\downloads\phase two project v2\order.h
+	<iostream>
+	<map>
+	<string>
+
+1773414093 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1773413966 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\discountedproduct.h
+	"Product.h"
+
+1773411783 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\product.h
+	<string>
+
+1773368340 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\order.cpp
+	"Order.h"
+
+1773414246 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\order.h
+	<map>
+	<string>
+	<atomic>
+
+1773413203 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\product.cpp
+	"Product.h"
+
+1773413753 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1773413674 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\taxableproduct.h
+	"Product.h"
+
+1773368340 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\inventorysystem.cpp
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1773368340 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1773377451 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\main.cpp
+	<iostream>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+
+1773368340 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1773368340 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1773368340 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+
+1773368340 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\orderpool.cpp
+	"OrderPool.h"
+
+1773368340 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1773368340 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+
+1773377915 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v2\logger.h
+	<mutex>
+	<iostream>
+
+1773414093 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1773413966 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\discountedproduct.h
+	"Product.h"
+
+1773411783 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\product.h
+	<string>
+
+1773546296 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\inventorysystem.cpp
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1773550661 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1773413674 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\taxableproduct.h
+	"Product.h"
+
+1773554648 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\main.cpp
+	<iostream>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+
+1773500397 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1773497053 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\order.h
+	<map>
+	<string>
+	<atomic>
+
+1773547963 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1773549748 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+
+1773498776 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\order.cpp
+	"Order.h"
+
+1773547728 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\orderpool.cpp
+	"OrderPool.h"
+
+1773413203 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\product.cpp
+	"Product.h"
+
+1773413753 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1773545964 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1773550592 c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\logger.h
+	<mutex>
+	<iostream>
+
+1773554005 source:c:\users\yahya\onedrive\desktop\work\uni\year 4 semester 1\comp 315\group project\phase two project v3\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+
+1773414093 source:c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1773413966 c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\discountedproduct.h
+	"Product.h"
+
+1773411783 c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\product.h
+	<string>
+
+1773546296 source:c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\inventorysystem.cpp
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1773550661 c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1773413674 c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\taxableproduct.h
+	"Product.h"
+
+1773554648 source:c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\main.cpp
+	<iostream>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+
+1773500397 c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1773497053 c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\order.h
+	<map>
+	<string>
+	<atomic>
+
+1773547963 c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1773549748 c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+
+1773498776 source:c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\order.cpp
+	"Order.h"
+
+1773547728 source:c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\orderpool.cpp
+	"OrderPool.h"
+
+1773413203 source:c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\product.cpp
+	"Product.h"
+
+1773413753 source:c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1773545964 source:c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1773550592 c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\logger.h
+	<mutex>
+	<iostream>
+
+1773555126 source:c:\users\pilotdrake1\desktop\phase two project v5\phase two project v3\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+
+1776145814 source:c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1776145814 c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\discountedproduct.h
+	"Product.h"
+
+1776145814 c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\product.h
+	<string>
+
+1776145814 source:c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\inventorysystem.cpp
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1776145814 c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1776145814 c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\taxableproduct.h
+	"Product.h"
+
+1776145814 source:c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\main.cpp
+	<iostream>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+
+1776145814 c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1776145814 c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\order.h
+	<map>
+	<string>
+	<atomic>
+
+1776145814 c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1776145814 c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+
+1776145814 source:c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\order.cpp
+	"Order.h"
+
+1776145814 source:c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\orderpool.cpp
+	"OrderPool.h"
+
+1776145814 source:c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\product.cpp
+	"Product.h"
+
+1776145814 source:c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1776145814 source:c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1776145814 c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\logger.h
+	<mutex>
+	<iostream>
+
+1776145814 source:c:\users\223037045\desktop\group twelve software solutions ltd comp315 phase 2 project\phase two project v5\phase two project v5\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+
+1776243205 source:z:\comp315\category\phase two project v5\phase two project v5\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1776243205 z:\comp315\category\phase two project v5\phase two project v5\discountedproduct.h
+	"Product.h"
+
+1776248285 z:\comp315\category\phase two project v5\phase two project v5\product.h
+	<string>
+
+1776145814 source:z:\comp315\category\phase two project v5\phase two project v5\order.cpp
+	"Order.h"
+
+1776145814 z:\comp315\category\phase two project v5\phase two project v5\order.h
+	<map>
+	<string>
+	<atomic>
+
+1776145814 source:z:\comp315\category\phase two project v5\phase two project v5\orderpool.cpp
+	"OrderPool.h"
+
+1776145814 z:\comp315\category\phase two project v5\phase two project v5\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1776243205 source:z:\comp315\category\phase two project v5\phase two project v5\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1776243205 z:\comp315\category\phase two project v5\phase two project v5\taxableproduct.h
+	"Product.h"
+
+1776145814 source:z:\comp315\category\phase two project v5\phase two project v5\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1776145814 z:\comp315\category\phase two project v5\phase two project v5\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1776145814 z:\comp315\category\phase two project v5\phase two project v5\logger.h
+	<mutex>
+	<iostream>
+
+1776145814 source:z:\comp315\category\phase two project v5\phase two project v5\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+
+1776145814 z:\comp315\category\phase two project v5\phase two project v5\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+
+1776246077 z:\comp315\category\phase two project v5\phase two project v5\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1776246076 source:z:\comp315\category\phase two project v5\phase two project v5\inventorysystem.cpp
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1776248285 source:z:\comp315\category\phase two project v5\phase two project v5\product.cpp
+	"Product.h"
+
+1776263601 source:z:\comp315\category\phase two project v5\phase two project v5\main.cpp
+	<iostream>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+	"AnalyticsManager.h"
+
+1776263423 z:\comp315\category\phase two project v5\phase two project v5\analyticsmanager.h
+	<map>
+	<vector>
+	<mutex>
+	<string>
+	<fstream>
+	"Order.h"
+
+1776243205 source:c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1776243205 c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\discountedproduct.h
+	"Product.h"
+
+1776248285 c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\product.h
+	<string>
+
+1776275692 source:c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\inventorysystem.cpp
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1776246077 c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1776243205 c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\taxableproduct.h
+	"Product.h"
+
+1776145814 source:c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\order.cpp
+	"Order.h"
+
+1776145814 c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\order.h
+	<map>
+	<string>
+	<atomic>
+
+1776145814 source:c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\orderpool.cpp
+	"OrderPool.h"
+
+1776145814 c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1776248285 source:c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\product.cpp
+	"Product.h"
+
+1776243205 source:c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1776145814 source:c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1776145814 c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1776145814 c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\logger.h
+	<mutex>
+	<iostream>
+
+1776287422 source:c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776280343 c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776290520 source:c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\main.cpp
+	<iostream>
+	<map>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+	"AnalyticsManager.h"
+	<iomanip>
+
+1776288498 c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\analyticsmanager.h
+	<vector>
+	<mutex>
+	"AnalyticsRecord.h"
+
+1776284191 source:c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\analyticsrecord.cpp
+	"AnalyticsRecord.h"
+
+1776284191 c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\analyticsrecord.h
+	<string>
+
+1776288498 source:c:\users\pilotdrake1\desktop\category\phase two project v5\phase two project v5\analyticsmanager.cpp
+	"AnalyticsManager.h"
+	<iostream>
+
+1776328627 source:z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1776328627 z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\discountedproduct.h
+	"Product.h"
+
+1776328627 z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\product.h
+	<string>
+
+1776328627 source:z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\inventorysystem.cpp
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1776328627 z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1776328627 z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\taxableproduct.h
+	"Product.h"
+
+1776328627 source:z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\main.cpp
+	<iostream>
+	<map>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+	"AnalyticsManager.h"
+	<iomanip>
+
+1776328627 z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1776328627 z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\order.h
+	<map>
+	<string>
+	<atomic>
+
+1776328627 z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1776328627 z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776328627 z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\analyticsrecord.h
+	<string>
+
+1776328627 z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\analyticsmanager.h
+	<vector>
+	<mutex>
+	"AnalyticsRecord.h"
+
+1776328627 source:z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\order.cpp
+	"Order.h"
+
+1776328627 source:z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\orderpool.cpp
+	"OrderPool.h"
+
+1776328627 source:z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\product.cpp
+	"Product.h"
+
+1776328627 source:z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1776328627 source:z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1776328627 z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\logger.h
+	<mutex>
+	<iostream>
+
+1776328627 source:z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776328627 source:z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\analyticsmanager.cpp
+	"AnalyticsManager.h"
+	<iostream>
+
+1776328627 source:z:\new folder (2)\category fianl\category\phase two project v5\phase two project v5\analyticsrecord.cpp
+	"AnalyticsRecord.h"
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\phase two project v5\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\phase two project v5\discountedproduct.h
+	"Product.h"
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\phase two project v5\product.h
+	<string>
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\phase two project v5\inventorysystem.cpp
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\phase two project v5\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\phase two project v5\taxableproduct.h
+	"Product.h"
+
+1776433112 source:z:\comp315\category fianl\category\phase two project v5\phase two project v5\main.cpp
+	<iostream>
+	<map>
+	<unordered_map>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+	"AnalyticsManager.h"
+	<iomanip>
+	<fstream>
+	<iostream>
+	<limits>
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\phase two project v5\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\phase two project v5\order.h
+	<map>
+	<string>
+	<atomic>
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\phase two project v5\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\phase two project v5\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776427691 z:\comp315\category fianl\category\phase two project v5\phase two project v5\analyticsrecord.h
+	<string>
+
+1776434591 z:\comp315\category fianl\category\phase two project v5\phase two project v5\analyticsmanager.h
+	<vector>
+	<map>
+	<string>
+	<mutex>
+	"AnalyticsRecord.h"
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\phase two project v5\order.cpp
+	"Order.h"
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\phase two project v5\orderpool.cpp
+	"OrderPool.h"
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\phase two project v5\product.cpp
+	"Product.h"
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\phase two project v5\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\phase two project v5\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\phase two project v5\logger.h
+	<mutex>
+	<iostream>
+
+1776427856 source:z:\comp315\category fianl\category\phase two project v5\phase two project v5\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776434466 source:z:\comp315\category fianl\category\phase two project v5\phase two project v5\analyticsmanager.cpp
+	"AnalyticsManager.h"
+	<iostream>
+	<iomanip>
+	<memory>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<string>
+	<fstream>
+
+1776427690 source:z:\comp315\category fianl\category\phase two project v5\phase two project v5\analyticsrecord.cpp
+	"AnalyticsRecord.h"
+
+1776434466 source:z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\analyticsmanager.cpp
+	"AnalyticsManager.h"
+	<iostream>
+	<iomanip>
+	<memory>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<string>
+	<fstream>
+
+1776434591 z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\analyticsmanager.h
+	<vector>
+	<map>
+	<string>
+	<mutex>
+	"AnalyticsRecord.h"
+
+1776427691 z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\analyticsrecord.h
+	<string>
+
+1776427690 source:z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\analyticsrecord.cpp
+	"AnalyticsRecord.h"
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\discountedproduct.h
+	"Product.h"
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\product.h
+	<string>
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\inventorysystem.cpp
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\taxableproduct.h
+	"Product.h"
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\order.cpp
+	"Order.h"
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\order.h
+	<map>
+	<string>
+	<atomic>
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\orderpool.cpp
+	"OrderPool.h"
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\product.cpp
+	"Product.h"
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1776328627 source:z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\logger.h
+	<mutex>
+	<iostream>
+
+1776427856 source:z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776328627 z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776435833 source:z:\comp315\category fianl\category\phase two project v5\g12 comp1 final cli\main.cpp
+	<iostream>
+	<map>
+	<unordered_map>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+	"AnalyticsManager.h"
+	<iomanip>
+	<fstream>
+	<iostream>
+	<limits>
+
+1776450805 source:c:\users\pilotdrake1\desktop\g12 comp1 final cli\analyticsmanager.cpp
+	"AnalyticsManager.h"
+	<iostream>
+	<iomanip>
+	<memory>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<string>
+
+1776455358 c:\users\pilotdrake1\desktop\g12 comp1 final cli\analyticsmanager.h
+	"AnalyticsRecord.h"
+	<vector>
+	<string>
+	<map>
+	<mutex>
+
+1776450955 c:\users\pilotdrake1\desktop\g12 comp1 final cli\analyticsrecord.h
+	<string>
+
+1776451587 source:c:\users\pilotdrake1\desktop\g12 comp1 final cli\analyticsrecord.cpp
+	"AnalyticsRecord.h"
+
+1776446201 source:c:\users\pilotdrake1\desktop\g12 comp1 final cli\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final cli\discountedproduct.h
+	"Product.h"
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final cli\product.h
+	<string>
+
+1776454700 source:c:\users\pilotdrake1\desktop\g12 comp1 final cli\main.cpp
+	<iostream>
+	<map>
+	<unordered_map>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+	"AnalyticsManager.h"
+	<iomanip>
+	<fstream>
+	<iostream>
+	<limits>
+
+1776453019 c:\users\pilotdrake1\desktop\g12 comp1 final cli\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1776443595 c:\users\pilotdrake1\desktop\g12 comp1 final cli\taxableproduct.h
+	"Product.h"
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final cli\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final cli\order.h
+	<map>
+	<string>
+	<atomic>
+
+1776443595 c:\users\pilotdrake1\desktop\g12 comp1 final cli\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1776443595 c:\users\pilotdrake1\desktop\g12 comp1 final cli\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776443594 source:c:\users\pilotdrake1\desktop\g12 comp1 final cli\order.cpp
+	"Order.h"
+
+1776443594 source:c:\users\pilotdrake1\desktop\g12 comp1 final cli\orderpool.cpp
+	"OrderPool.h"
+
+1776443594 source:c:\users\pilotdrake1\desktop\g12 comp1 final cli\product.cpp
+	"Product.h"
+
+1776443595 source:c:\users\pilotdrake1\desktop\g12 comp1 final cli\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1776443595 source:c:\users\pilotdrake1\desktop\g12 comp1 final cli\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final cli\logger.h
+	<mutex>
+	<iostream>
+
+1776451581 source:c:\users\pilotdrake1\desktop\g12 comp1 final cli\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776453841 source:c:\users\pilotdrake1\desktop\g12 comp1 final cli\inventorysystem.cpp
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1776443764 c:\users\pilotdrake1\desktop\g12 comp1 final cli\standardproduct.h
+	"Product.h"
+
+1776443764 source:c:\users\pilotdrake1\desktop\g12 comp1 final cli\standardproduct.cpp
+	"StandardProduct.h"
+
+1776450804 source:c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\analyticsmanager.cpp
+	"AnalyticsManager.h"
+	<iostream>
+	<iomanip>
+	<memory>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<string>
+
+1776455358 c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\analyticsmanager.h
+	"AnalyticsRecord.h"
+	<vector>
+	<string>
+	<map>
+	<mutex>
+
+1776450954 c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\analyticsrecord.h
+	<string>
+
+1776451586 source:c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\analyticsrecord.cpp
+	"AnalyticsRecord.h"
+
+1776446200 source:c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1776443594 c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\discountedproduct.h
+	"Product.h"
+
+1776443594 c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\product.h
+	<string>
+
+1776453840 source:c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\inventorysystem.cpp
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1776453018 c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1776443764 c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\standardproduct.h
+	"Product.h"
+
+1776443594 c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\taxableproduct.h
+	"Product.h"
+
+1777796751 source:c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\main.cpp
+	<iostream>
+	<map>
+	<unordered_map>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+	"AnalyticsManager.h"
+	<iomanip>
+	<fstream>
+	<iostream>
+	<atomic>
+	<thread>
+	<vector>
+	<memory>
+	<chrono>
+	<limits>
+	<random>
+	<iomanip>
+
+1776443594 c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1776443594 c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\order.h
+	<map>
+	<string>
+	<atomic>
+
+1776443594 c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1776443594 c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776443594 source:c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\order.cpp
+	"Order.h"
+
+1776443594 source:c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\orderpool.cpp
+	"OrderPool.h"
+
+1776443594 source:c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\product.cpp
+	"Product.h"
+
+1776443764 source:c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\standardproduct.cpp
+	"StandardProduct.h"
+
+1776443594 source:c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1776443594 source:c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1776443594 c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\logger.h
+	<mutex>
+	<iostream>
+
+1776451580 source:c:\users\pilotdrake1\downloads\g12 comp1 final cli v1\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776450804 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli\analyticsmanager.cpp
+	"AnalyticsManager.h"
+	<iostream>
+	<iomanip>
+	<memory>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<string>
+
+1776455358 c:\users\pilotdrake1\desktop\g12 comp1 final project cli\analyticsmanager.h
+	"AnalyticsRecord.h"
+	<vector>
+	<string>
+	<map>
+	<mutex>
+
+1776450954 c:\users\pilotdrake1\desktop\g12 comp1 final project cli\analyticsrecord.h
+	<string>
+
+1776451586 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli\analyticsrecord.cpp
+	"AnalyticsRecord.h"
+
+1776446200 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final project cli\discountedproduct.h
+	"Product.h"
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final project cli\product.h
+	<string>
+
+1776453840 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli\inventorysystem.cpp
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1776453018 c:\users\pilotdrake1\desktop\g12 comp1 final project cli\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1776443764 c:\users\pilotdrake1\desktop\g12 comp1 final project cli\standardproduct.h
+	"Product.h"
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final project cli\taxableproduct.h
+	"Product.h"
+
+1777796751 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli\main.cpp
+	<iostream>
+	<map>
+	<unordered_map>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+	"AnalyticsManager.h"
+	<iomanip>
+	<fstream>
+	<iostream>
+	<atomic>
+	<thread>
+	<vector>
+	<memory>
+	<chrono>
+	<limits>
+	<random>
+	<iomanip>
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final project cli\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final project cli\order.h
+	<map>
+	<string>
+	<atomic>
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final project cli\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final project cli\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1776443594 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli\order.cpp
+	"Order.h"
+
+1776443594 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli\orderpool.cpp
+	"OrderPool.h"
+
+1776443594 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli\product.cpp
+	"Product.h"
+
+1776443764 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli\standardproduct.cpp
+	"StandardProduct.h"
+
+1776443594 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1776443594 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1776443594 c:\users\pilotdrake1\desktop\g12 comp1 final project cli\logger.h
+	<mutex>
+	<iostream>
+
+1776451580 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\analyticsmanager.cpp
+	"AnalyticsManager.h"
+	<iostream>
+	<iomanip>
+	<memory>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<string>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\analyticsmanager.h
+	"AnalyticsRecord.h"
+	<vector>
+	<string>
+	<map>
+	<mutex>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\analyticsrecord.h
+	<string>
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\analyticsrecord.cpp
+	"AnalyticsRecord.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\discountedproduct.h
+	"Product.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\product.h
+	<string>
+
+1777801037 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\inventorysystem.cpp
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\standardproduct.h
+	"Product.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\taxableproduct.h
+	"Product.h"
+
+1777803011 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\main.cpp
+	<iostream>
+	<map>
+	<unordered_map>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+	"AnalyticsManager.h"
+	<iomanip>
+	<fstream>
+	<iostream>
+	<atomic>
+	<thread>
+	<vector>
+	<memory>
+	<chrono>
+	<limits>
+	<random>
+	<iomanip>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\order.h
+	<map>
+	<string>
+	<atomic>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\order.cpp
+	"Order.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\orderpool.cpp
+	"OrderPool.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\product.cpp
+	"Product.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\standardproduct.cpp
+	"StandardProduct.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\logger.h
+	<mutex>
+	<iostream>
+
+1777801027 source:c:\users\pilotdrake1\desktop\g12 comp1 final project cli fixed(1)\fixed\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\analyticsmanager.cpp
+	"AnalyticsManager.h"
+	<iostream>
+	<iomanip>
+	<memory>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<string>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\analyticsmanager.h
+	"AnalyticsRecord.h"
+	<vector>
+	<string>
+	<map>
+	<mutex>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\analyticsrecord.h
+	<string>
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\analyticsrecord.cpp
+	"AnalyticsRecord.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\discountedproduct.h
+	"Product.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\product.h
+	<string>
+
+1777801037 source:c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\inventorysystem.cpp
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\standardproduct.h
+	"Product.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\taxableproduct.h
+	"Product.h"
+
+1777803011 source:c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\main.cpp
+	<iostream>
+	<map>
+	<unordered_map>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+	"AnalyticsManager.h"
+	<iomanip>
+	<fstream>
+	<iostream>
+	<atomic>
+	<thread>
+	<vector>
+	<memory>
+	<chrono>
+	<limits>
+	<random>
+	<iomanip>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\order.h
+	<map>
+	<string>
+	<atomic>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\order.cpp
+	"Order.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\orderpool.cpp
+	"OrderPool.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\product.cpp
+	"Product.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\standardproduct.cpp
+	"StandardProduct.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\logger.h
+	<mutex>
+	<iostream>
+
+1777801027 source:c:\users\pilotdrake1\desktop\g12 comp315 final project cli source code\comp315 project final\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\analyticsmanager.cpp
+	"AnalyticsManager.h"
+	<iostream>
+	<iomanip>
+	<memory>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<string>
+
+1777801009 c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\analyticsmanager.h
+	"AnalyticsRecord.h"
+	<vector>
+	<string>
+	<map>
+	<mutex>
+
+1777801009 c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\analyticsrecord.h
+	<string>
+
+1777801009 source:c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\analyticsrecord.cpp
+	"AnalyticsRecord.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1777801009 c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\discountedproduct.h
+	"Product.h"
+
+1777801009 c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\product.h
+	<string>
+
+1777801037 source:c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\inventorysystem.cpp
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1777801009 c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1777801009 c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\standardproduct.h
+	"Product.h"
+
+1777801009 c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\taxableproduct.h
+	"Product.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\order.cpp
+	"Order.h"
+
+1777801009 c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\order.h
+	<map>
+	<string>
+	<atomic>
+
+1777801009 source:c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\orderpool.cpp
+	"OrderPool.h"
+
+1777801009 c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\product.cpp
+	"Product.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\standardproduct.cpp
+	"StandardProduct.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1777801009 c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1777801009 c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\logger.h
+	<mutex>
+	<iostream>
+
+1777801027 source:c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1777801009 c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1777834653 source:c:\users\pilotdrake1\desktop\group twelve software solutions comp315 final phase\comp315 final submission\final source code\cli source code (main submission)\comp315 project final\main.cpp
+	<iostream>
+	<map>
+	<unordered_map>
+	<vector>
+	<memory>
+	<thread>
+	<string>
+	<limits>
+	<chrono>
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	"OrderPool.h"
+	"Warehouse.h"
+	"WorkerThread.h"
+	"AnalyticsManager.h"
+	<iomanip>
+	<fstream>
+	<iostream>
+	<atomic>
+	<thread>
+	<vector>
+	<memory>
+	<chrono>
+	<limits>
+	<random>
+	<iomanip>
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\analyticsmanager.cpp
+	"AnalyticsManager.h"
+	<iostream>
+	<iomanip>
+	<memory>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<string>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\analyticsmanager.h
+	"AnalyticsRecord.h"
+	<vector>
+	<string>
+	<map>
+	<mutex>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\analyticsrecord.h
+	<string>
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\analyticsrecord.cpp
+	"AnalyticsRecord.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\discountedproduct.cpp
+	"DiscountedProduct.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\discountedproduct.h
+	"Product.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\product.h
+	<string>
+
+1777801037 source:c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\inventorysystem.cpp
+	"InventorySystem.h"
+	"StandardProduct.h"
+	"TaxableProduct.h"
+	"DiscountedProduct.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\inventorysystem.h
+	<map>
+	<vector>
+	<memory>
+	<mutex>
+	"Product.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\standardproduct.h
+	"Product.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\taxableproduct.h
+	"Product.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\order.cpp
+	"Order.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\order.h
+	<map>
+	<string>
+	<atomic>
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\orderpool.cpp
+	"OrderPool.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\orderpool.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	"Order.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\product.cpp
+	"Product.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\standardproduct.cpp
+	"StandardProduct.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\taxableproduct.cpp
+	"TaxableProduct.h"
+
+1777801009 source:c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\warehouse.cpp
+	"Warehouse.h"
+	"Logger.h"
+	<fstream>
+	<sstream>
+
+1777801009 c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\warehouse.h
+	<thread>
+	<string>
+	"OrderPool.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\logger.h
+	<mutex>
+	<iostream>
+
+1777801027 source:c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\workerthread.cpp
+	"WorkerThread.h"
+	"Logger.h"
+	<chrono>
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
+1777801009 c:\users\pilotdrake1\desktop\g12 ss comp315 final submission\project\2. final source code\cli source code (main submission)\comp315 project final\workerthread.h
+	<thread>
+	<vector>
+	<mutex>
+	"OrderPool.h"
+	"InventorySystem.h"
+	"AnalyticsRecord.h"
+	"AnalyticsManager.h"
+
