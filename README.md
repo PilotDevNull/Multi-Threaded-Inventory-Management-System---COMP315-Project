@@ -1,5 +1,5 @@
 # COMP315 Final Phase — Group Twelve Software Solutions
-# Group Memebers:
+# Group Members:
 Member Name	- Student ID
 Yahya Bobat	- 223020664
 Jawad Kachbal -	223037045
@@ -12,6 +12,7 @@ Andiswa Hlengwa - 221002430
 **Project Name:** Nexus Logistics Inventory Management System
 **Module:** COMP315
 **Group:** Group Twelve Software Solutions
+**Group:** See Final Report For more Information
 
 ---
 
