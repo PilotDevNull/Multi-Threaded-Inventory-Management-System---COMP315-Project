@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DashboardPage</class>
+ <widget class="QWidget" name="DashboardPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dashboard</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_main">
+   <property name="spacing">
+    <number>20</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="dashboardTitleLabel">
+     <property name="font">
+      <font>
+       <pointsize>30</pointsize>
+       
+      </font>
+     </property>
+     <property name="text">
+      <string>Dashboard</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_kpi">
+     <property name="spacing">
+      <number>20</number>
+     </property>
+     <item>
+      <widget class="QFrame" name="kpiFrame1">
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_kpi1">
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="kpiTitle1">
+          <property name="text">
+           <string>Total Products</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="totalProductsValueLabel">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="kpiFrame2">
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_kpi2">
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="kpiTitle2">
+          <property name="text">
+           <string>Total Stock Units</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="totalStockUnitsValueLabel">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="kpiFrame3">
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_kpi3">
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="kpiTitle3">
+          <property name="text">
+           <string>Low Stock Items</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lowStockItemsValueLabel">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="kpiFrame4">
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_kpi4">
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="kpiTitle4">
+          <property name="text">
+           <string>Captured Revenue</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="todayRevenueValueLabel">
+          <property name="text">
+           <string>Unavailable</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QSplitter" name="mainSplitter">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <widget class="QGroupBox" name="warehouseStatusGroupBox">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>Warehouse Batch Status</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_whstatus">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_wh">
+         <property name="spacing">
+          <number>12</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="warehouseHeaderNameLabel">
+           <property name="text">
+            <string>Warehouse</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="warehouseHeaderFileLabel">
+           <property name="text">
+            <string>Orders CSV</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="warehouseHeaderStatusLabel">
+           <property name="text">
+            <string>Status</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="warehouseHeaderProcessedLabel">
+           <property name="text">
+            <string>Processed</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="warehouseHeaderSuccessLabel">
+           <property name="text">
+            <string>Success</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLabel" name="warehouseHeaderFailLabel">
+           <property name="text">
+            <string>Partial/Fail</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="w1Label">
+           <property name="text">
+            <string>W1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLabel" name="warehouse1FileLabel">
+           <property name="text">
+            <string>Warehouse1_Orders.csv</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLabel" name="warehouse1StatusLabel">
+           <property name="text">
+            <string>Idle</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QLabel" name="warehouse1ProcessedLabel">
+           <property name="text">
+            <string>0 processed</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLabel" name="warehouse1SuccessLabel">
+           <property name="text">
+            <string>0 success</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="5">
+          <widget class="QLabel" name="warehouse1FailLabel">
+           <property name="text">
+            <string>0 fail</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="w2Label">
+           <property name="text">
+            <string>W2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLabel" name="warehouse2FileLabel">
+           <property name="text">
+            <string>Warehouse2_Orders.csv</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLabel" name="warehouse2StatusLabel">
+           <property name="text">
+            <string>Idle</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="3">
+          <widget class="QLabel" name="warehouse2ProcessedLabel">
+           <property name="text">
+            <string>0 processed</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QLabel" name="warehouse2SuccessLabel">
+           <property name="text">
+            <string>0 success</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <widget class="QLabel" name="warehouse2FailLabel">
+           <property name="text">
+            <string>0 fail</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="w3Label">
+           <property name="text">
+            <string>W3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="warehouse3FileLabel">
+           <property name="text">
+            <string>Warehouse3_Orders.csv</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QLabel" name="warehouse3StatusLabel">
+           <property name="text">
+            <string>Idle</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="3">
+          <widget class="QLabel" name="warehouse3ProcessedLabel">
+           <property name="text">
+            <string>0 processed</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="4">
+          <widget class="QLabel" name="warehouse3SuccessLabel">
+           <property name="text">
+            <string>0 success</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="5">
+          <widget class="QLabel" name="warehouse3FailLabel">
+           <property name="text">
+            <string>0 fail</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="w4Label">
+           <property name="text">
+            <string>W4</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLabel" name="warehouse4FileLabel">
+           <property name="text">
+            <string>Warehouse4_Orders.csv</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLabel" name="warehouse4StatusLabel">
+           <property name="text">
+            <string>Idle</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="3">
+          <widget class="QLabel" name="warehouse4ProcessedLabel">
+           <property name="text">
+            <string>0 processed</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="4">
+          <widget class="QLabel" name="warehouse4SuccessLabel">
+           <property name="text">
+            <string>0 success</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="5">
+          <widget class="QLabel" name="warehouse4FailLabel">
+           <property name="text">
+            <string>0 fail</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="w5Label">
+           <property name="text">
+            <string>W5</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLabel" name="warehouse5FileLabel">
+           <property name="text">
+            <string>Warehouse5_Orders.csv</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="2">
+          <widget class="QLabel" name="warehouse5StatusLabel">
+           <property name="text">
+            <string>Idle</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="3">
+          <widget class="QLabel" name="warehouse5ProcessedLabel">
+           <property name="text">
+            <string>0 processed</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="4">
+          <widget class="QLabel" name="warehouse5SuccessLabel">
+           <property name="text">
+            <string>0 success</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="5">
+          <widget class="QLabel" name="warehouse5FailLabel">
+           <property name="text">
+            <string>0 fail</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QFrame" name="dashboardSideColumnFrame">
+      <property name="frameShape">
+       <enum>QFrame::Shape::NoFrame</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_dashboardSide">
+       <property name="spacing">
+        <number>18</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="liveFeedGroupBox">
+         <property name="title">
+          <string>Completed Batch Activity</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_feed">
+          <item>
+           <widget class="QTableWidget" name="activityFeedTableWidget">
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SelectionMode::NoSelection</enum>
+            </property>
+            <attribute name="horizontalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="runtimeStatusGroupBox">
+         <property name="title">
+          <string>System Health</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_runtimeStatus">
+          <property name="spacing">
+           <number>12</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="systemInitStatusLabel">
+            <property name="text">
+             <string>System initialized</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="processingIdleStatusLabel">
+            <property name="text">
+             <string>Processing idle</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="runtimeThreadsLabel">
+            <property name="text">
+             <string>Threads: unavailable</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_bottom">
+     <property name="spacing">
+      <number>20</number>
+     </property>
+     <item>
+      <widget class="QGroupBox" name="healthGroupBox">
+       <property name="title">
+        <string>Batch Signals</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_health">
+        <property name="spacing">
+         <number>12</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_healthRow1">
+          <item>
+           <widget class="QLabel" name="mutexHealthTitle">
+            <property name="text">
+             <string>Catalog</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="mutexHealthLabel">
+            <property name="text">
+             <string>Pending</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_healthRow2">
+          <item>
+           <widget class="QLabel" name="queueHealthTitle">
+            <property name="text">
+             <string>Orders Batch</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="queueHealthLabel">
+            <property name="text">
+             <string>Not run</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_healthRow3">
+          <item>
+           <widget class="QLabel" name="threadHealthTitle">
+            <property name="text">
+             <string>Analytics Records</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="threadHealthLabel">
+            <property name="text">
+             <string>Unavailable</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_healthRow4">
+          <item>
+           <widget class="QLabel" name="exportHealthTitle">
+            <property name="text">
+             <string>Lost Revenue</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="exportHealthLabel">
+            <property name="text">
+             <string>Unavailable</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="healthHelperLabel">
+          <property name="text">
+           <string>Runtime concurrency indicators and scheduler state will appear here.</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="snapshotGroupBox">
+       <property name="minimumSize">
+        <size>
+         <width>280</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>320</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>System Snapshot</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_snapshot">
+        <property name="spacing">
+         <number>14</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="snapshotMutexLabel">
+          <property name="text">
+          <string>Catalog: pending</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="snapshotThreadLabel">
+          <property name="text">
+          <string>Analytics records: unavailable</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="snapshotQueueLabel">
+          <property name="text">
+          <string>Orders batch: not run</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

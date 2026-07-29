@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OrdersPage</class>
+ <widget class="QWidget" name="OrdersPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Orders</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_main">
+   <item>
+    <widget class="QLabel" name="ordersTitleLabel">
+     <property name="text">
+      <string>Orders</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="mainSplitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QGroupBox" name="warehousesGroupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>0</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_wh">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>12</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>8</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="warehousesTitleLabel">
+         <property name="text">
+          <string>Warehouses</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>230</width>
+            <height>700</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_scroll">
+           <property name="spacing">
+            <number>14</number>
+           </property>
+           <property name="leftMargin">
+            <number>8</number>
+           </property>
+           <property name="topMargin">
+            <number>8</number>
+           </property>
+           <property name="rightMargin">
+            <number>8</number>
+           </property>
+           <property name="bottomMargin">
+            <number>8</number>
+           </property>
+           <item>
+            <widget class="QFrame" name="w1Frame">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <layout class="QVBoxLayout" name="w1Layout">
+              <item>
+               <widget class="QLabel" name="w1TitleLabel">
+                <property name="text">
+                 <string>Warehouse 1</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w1FileLayout">
+                <item>
+                 <widget class="QLineEdit" name="warehouse1FileLineEdit">
+                  <property name="readOnly">
+                   <bool>true</bool>
+                  </property>
+                  <property name="text">
+                   <string>W1Orders.csv</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="warehouse1BrowseButton">
+                  <property name="text">
+                   <string>Browse</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w1BtnLayout">
+                <item>
+                 <widget class="QPushButton" name="warehouse1StartButton">
+                  <property name="text">
+                   <string>Start</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="warehouse1StopButton">
+                  <property name="text">
+                   <string>Stop</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w1StatLayout">
+                <item>
+                 <widget class="QLabel" name="warehouse1StatusLabel">
+                  <property name="text">
+                   <string>Idle</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="w1Spacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QLabel" name="warehouse1SuccessLabel">
+                  <property name="text">
+                   <string>Success: 0</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="warehouse1FailedLabel">
+                  <property name="text">
+                   <string>Failed: 0</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="w2Frame">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <layout class="QVBoxLayout" name="w2Layout">
+              <item>
+               <widget class="QLabel" name="w2TitleLabel">
+                <property name="text">
+                 <string>Warehouse 2</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w2FileLayout">
+                <item>
+                 <widget class="QLineEdit" name="warehouse2FileLineEdit">
+                  <property name="readOnly">
+                   <bool>true</bool>
+                  </property>
+                  <property name="text">
+                   <string>W2Orders.csv</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="warehouse2BrowseButton">
+                  <property name="text">
+                   <string>Browse</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w2BtnLayout">
+                <item>
+                 <widget class="QPushButton" name="warehouse2StartButton">
+                  <property name="text">
+                   <string>Start</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="warehouse2StopButton">
+                  <property name="text">
+                   <string>Stop</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w2StatLayout">
+                <item>
+                 <widget class="QLabel" name="warehouse2StatusLabel">
+                  <property name="text">
+                   <string>Idle</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="w2Spacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QLabel" name="warehouse2SuccessLabel">
+                  <property name="text">
+                   <string>Success: 0</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="warehouse2FailedLabel">
+                  <property name="text">
+                   <string>Failed: 0</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="w3Frame">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <layout class="QVBoxLayout" name="w3Layout">
+              <item>
+               <widget class="QLabel" name="w3TitleLabel">
+                <property name="text">
+                 <string>Warehouse 3</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w3FileLayout">
+                <item>
+                 <widget class="QLineEdit" name="warehouse3FileLineEdit">
+                  <property name="readOnly">
+                   <bool>true</bool>
+                  </property>
+                  <property name="text">
+                   <string>W3Orders.csv</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="warehouse3BrowseButton">
+                  <property name="text">
+                   <string>Browse</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w3BtnLayout">
+                <item>
+                 <widget class="QPushButton" name="warehouse3StartButton">
+                  <property name="text">
+                   <string>Start</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="warehouse3StopButton">
+                  <property name="text">
+                   <string>Stop</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w3StatLayout">
+                <item>
+                 <widget class="QLabel" name="warehouse3StatusLabel">
+                  <property name="text">
+                   <string>Idle</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="w3Spacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QLabel" name="warehouse3SuccessLabel">
+                  <property name="text">
+                   <string>Success: 0</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="warehouse3FailedLabel">
+                  <property name="text">
+                   <string>Failed: 0</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="w4Frame">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <layout class="QVBoxLayout" name="w4Layout">
+              <item>
+               <widget class="QLabel" name="w4TitleLabel">
+                <property name="text">
+                 <string>Warehouse 4</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w4FileLayout">
+                <item>
+                 <widget class="QLineEdit" name="warehouse4FileLineEdit">
+                  <property name="readOnly">
+                   <bool>true</bool>
+                  </property>
+                  <property name="text">
+                   <string>W4Orders.csv</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="warehouse4BrowseButton">
+                  <property name="text">
+                   <string>Browse</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w4BtnLayout">
+                <item>
+                 <widget class="QPushButton" name="warehouse4StartButton">
+                  <property name="text">
+                   <string>Start</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="warehouse4StopButton">
+                  <property name="text">
+                   <string>Stop</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w4StatLayout">
+                <item>
+                 <widget class="QLabel" name="warehouse4StatusLabel">
+                  <property name="text">
+                   <string>Idle</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="w4Spacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QLabel" name="warehouse4SuccessLabel">
+                  <property name="text">
+                   <string>Success: 0</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="warehouse4FailedLabel">
+                  <property name="text">
+                   <string>Failed: 0</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="w5Frame">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <layout class="QVBoxLayout" name="w5Layout">
+              <item>
+               <widget class="QLabel" name="w5TitleLabel">
+                <property name="text">
+                 <string>Warehouse 5</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w5FileLayout">
+                <item>
+                 <widget class="QLineEdit" name="warehouse5FileLineEdit">
+                  <property name="readOnly">
+                   <bool>true</bool>
+                  </property>
+                  <property name="text">
+                   <string>W5Orders.csv</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="warehouse5BrowseButton">
+                  <property name="text">
+                   <string>Browse</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w5BtnLayout">
+                <item>
+                 <widget class="QPushButton" name="warehouse5StartButton">
+                  <property name="text">
+                   <string>Start</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="warehouse5StopButton">
+                  <property name="text">
+                   <string>Stop</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="w5StatLayout">
+                <item>
+                 <widget class="QLabel" name="warehouse5StatusLabel">
+                  <property name="text">
+                   <string>Idle</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="w5Spacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QLabel" name="warehouse5SuccessLabel">
+                  <property name="text">
+                   <string>Success: 0</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="warehouse5FailedLabel">
+                  <property name="text">
+                   <string>Failed: 0</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_wh">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QFrame" name="centerColumnFrame">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_centerColumn">
+       <property name="spacing">
+        <number>16</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="consoleGroupBox">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_console">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_consoleToolbar">
+            <item>
+             <widget class="QLabel" name="consoleTitleLabel">
+              <property name="text">
+               <string>Order Processing Console</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_consoleToolbar">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="consoleSearchLineEdit">
+              <property name="placeholderText">
+               <string>Search</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QTableWidget" name="orderConsoleTableWidget"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QFrame" name="rightColumnFrame">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_rightColumn">
+       <property name="spacing">
+        <number>16</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="manualOrderGroupBox">
+         <property name="title">
+          <string/>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>280</width>
+           <height>0</height>
+          </size>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_manual">
+          <item>
+           <widget class="QLabel" name="manualEntryTitleLabel">
+            <property name="text">
+             <string>Batch Configuration</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QFormLayout" name="formLayout_manual">
+            <item row="0" column="0">
+             <widget class="QLabel" name="manualWarehouseLabel">
+              <property name="text">
+               <string>Worker Threads</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QComboBox" name="manualWarehouseComboBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QLabel" name="manualHelperLabel">
+            <property name="text">
+             <string>Select thread count and press Start All.</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="submitManualOrderButton">
+            <property name="text">
+             <string>Start All</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="clearManualOrderButton">
+            <property name="text">
+             <string>Reset</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="manualOrderDivider">
+            <property name="frameShape">
+             <enum>QFrame::HLine</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Sunken</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="manualOrderFormTitle">
+            <property name="text">
+             <string>Add Manual Order</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QFormLayout" name="formLayout_addOrder">
+            <item row="0" column="0">
+             <widget class="QLabel" name="manualProductIdLabel">
+              <property name="text">
+               <string>Product ID</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QSpinBox" name="manualProductIdSpinBox">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>99999</number>
+              </property>
+              <property name="value">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="manualQuantityLabel">
+              <property name="text">
+               <string>Quantity</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QSpinBox" name="manualQuantitySpinBox">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>9999</number>
+              </property>
+              <property name="value">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="manualOrderWarehouseLabel">
+              <property name="text">
+               <string>Warehouse</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QComboBox" name="manualOrderWarehouseCombo">
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QLabel" name="manualOrderQueueLabel">
+            <property name="text">
+             <string>0 orders queued</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="addManualOrderButton">
+            <property name="text">
+             <string>Queue Order</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_rightCol">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="bottomStatusFrame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_bottom">
+      <item>
+       <widget class="QLabel" name="activeThreadsLabelTitle">
+        <property name="text">
+         <string>Active Threads</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="activeThreadsLabel">
+        <property name="text">
+         <string>0 / 5</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_status1">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="queueStatusLabelTitle">
+        <property name="text">
+         <string>Queue Status</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="queueStatusLabel">
+        <property name="text">
+         <string>Ready</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_status2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="mutexStateLabelTitle">
+        <property name="text">
+         <string>Mutex State</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="mutexStateLabel">
+        <property name="text">
+         <string>Not Locked</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
