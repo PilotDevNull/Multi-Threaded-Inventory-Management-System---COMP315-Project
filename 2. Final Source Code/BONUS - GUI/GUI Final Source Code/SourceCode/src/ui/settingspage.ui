@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsPage</class>
+ <widget class="QWidget" name="SettingsPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Settings</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_main">
+   <item>
+    <widget class="QLabel" name="settingsTitleLabel">
+     <property name="text">
+      <string>Settings</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_settingsContent">
+     <property name="spacing">
+      <number>16</number>
+     </property>
+     <item>
+      <widget class="QFrame" name="settingsLeftColumnFrame">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_settingsLeft">
+        <property name="spacing">
+         <number>16</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QGroupBox" name="fileManagementGroupBox">
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_file">
+           <item>
+            <widget class="QLabel" name="fileManagementTitleLabel">
+             <property name="text">
+              <string>Analytics Export</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="fileManagementHelperLabel">
+             <property name="text">
+              <string>Analytics CSV export is pending path hardening and GUI wiring. These controls remain disabled until NL-MIG-013 is complete.</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_exportPath">
+             <item>
+              <widget class="QLabel" name="exportPathLabel">
+               <property name="text">
+                <string>Export Folder</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="exportPathLineEdit"/>
+             </item>
+             <item>
+              <widget class="QPushButton" name="browseExportPathButton">
+               <property name="text">
+                <string>Browse...</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="autoExportCheckBox">
+             <property name="text">
+              <string>Enable analytics CSV export when supported</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_fileButtons">
+             <item>
+              <widget class="QPushButton" name="testExportButton">
+               <property name="text">
+                <string>Test Export</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="resetPathsButton">
+               <property name="text">
+                <string>Reset Paths</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="catalogueExampleGroupBox">
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_catalogueExample">
+           <item>
+            <widget class="QLabel" name="catalogueExampleTitleLabel">
+             <property name="text">
+              <string>Product CSV Example</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTableWidget" name="catalogueExampleTableWidget"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="threadSettingsGroupBox">
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_thread">
+           <item>
+            <widget class="QLabel" name="threadSettingsTitleLabel">
+             <property name="text">
+              <string>Backend Runtime</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="threadSettingsHelperLabel">
+             <property name="text">
+              <string>The migrated GUI runs the v2 backend with five fixed warehouse queues and mutex-protected inventory. Placeholder controls remain disabled.</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="warehousesFixedLabel">
+             <property name="text">
+              <string>Warehouses: 5 (fixed)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_delay">
+             <item>
+              <widget class="QLabel" name="simulatedDelayLabel">
+               <property name="text">
+                <string>Simulated Delay (ms)</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="simulatedDelaySpinBox">
+               <property name="maximum">
+                <number>10000</number>
+               </property>
+               <property name="value">
+                <number>500</number>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_threads">
+             <item>
+              <widget class="QLabel" name="maxThreadsLabel">
+               <property name="text">
+                <string>Max Worker Threads</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="maxThreadsSpinBox">
+               <property name="minimum">
+                <number>1</number>
+               </property>
+               <property name="maximum">
+                <number>32</number>
+               </property>
+               <property name="value">
+                <number>5</number>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QLabel" name="threadSafetyLabel">
+             <property name="text">
+              <string>Thread safety: mutex enabled</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_left">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="settingsRightColumnFrame">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_settingsRight">
+        <property name="spacing">
+         <number>16</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QGroupBox" name="csvFormatGroupBox">
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_csv">
+           <item>
+            <widget class="QLabel" name="csvFormatTitleLabel">
+             <property name="text">
+              <string>Product Type Reference</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="csvFormatHelperLabel">
+             <property name="text">
+              <string>Products load from final_project_v2/Catalog/Products.csv with columns id,name,category,price,quantity,type,taxRate,discountRate.</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTableWidget" name="catalogueFormatTableWidget"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="ordersFormatGroupBox">
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_ordersFormat">
+           <item>
+            <widget class="QLabel" name="ordersFormatTitleLabel">
+             <property name="text">
+              <string>Orders CSV Reference</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="ordersFormatHelperLabel">
+             <property name="text">
+              <string>Each final_project_v2/Orders/WarehouseN_Orders.csv row is one order made of product/quantity pairs.</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTableWidget" name="ordersFormatTableWidget"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_right">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

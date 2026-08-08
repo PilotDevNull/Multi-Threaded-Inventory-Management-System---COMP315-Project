@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InventoryPage</class>
+ <widget class="QWidget" name="InventoryPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Inventory</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_main">
+   <item>
+    <widget class="QLabel" name="inventoryTitleLabel">
+     <property name="text">
+      <string>Inventory</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="controlsFrame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_controls">
+      <property name="spacing">
+       <number>14</number>
+      </property>
+      <item>
+       <widget class="QLineEdit" name="inventorySearchLineEdit">
+        <property name="minimumSize">
+         <size>
+          <width>320</width>
+          <height>42</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="sortLabel">
+        <property name="text">
+         <string>Sort by:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="sortComboBox">
+        <property name="minimumSize">
+         <size>
+          <width>146</width>
+          <height>42</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="filterButton">
+        <property name="minimumSize">
+         <size>
+          <width>110</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Filter</string>
+        </property>
+      </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_controls">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="lowStockOnlyCheckBox">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>38</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Show low stock only</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="mainSplitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QGroupBox" name="inventoryTableGroupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_tableCard">
+       <item>
+        <widget class="QLabel" name="inventoryTableTitleLabel">
+         <property name="text">
+          <string>Inventory Catalogue</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_tableMeta">
+         <item>
+          <widget class="QLabel" name="inventoryTableSummaryLabel">
+           <property name="text">
+            <string>Showing live stock levels across all managed products</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_tableMeta">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="inventorySelectionHintLabel">
+           <property name="text">
+            <string>Select a row to edit product details</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="inventoryTableWidget">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>420</height>
+          </size>
+         </property>
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+         <property name="selectionMode">
+          <enum>QAbstractItemView::SingleSelection</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_inventoryFooter">
+         <item>
+          <widget class="QLabel" name="inventoryFooterLabel">
+           <property name="text">
+            <string>Showing 1 - 10 of 215 products</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_inventoryFooter">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="inventoryPagePrevButton">
+           <property name="minimumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>&lt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="inventoryPage1Button">
+           <property name="minimumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="inventoryPage2Button">
+           <property name="minimumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="inventoryPage3Button">
+           <property name="minimumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="inventoryPageNextButton">
+           <property name="minimumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>&gt;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="editorGroupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>380</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_editor">
+       <item>
+        <widget class="QLabel" name="productEditorTitleLabel">
+         <property name="text">
+          <string>Product Editor</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="editorHelperLabel">
+         <property name="text">
+          <string>Edit selected product details.</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="productIdLabel">
+         <property name="text">
+          <string>ProductID</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="productIdSpinBox">
+         <property name="maximum">
+          <number>999999</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="productNameLabel">
+         <property name="text">
+          <string>Name</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="productNameLineEdit"/>
+       </item>
+       <item>
+        <widget class="QFrame" name="editorPriceQuantityFrame">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_priceQuantity">
+          <property name="spacing">
+           <number>10</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="productPriceFieldFrame">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_priceField">
+             <property name="spacing">
+              <number>6</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="productPriceLabel">
+               <property name="text">
+                <string>Price (R)</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="productPriceDoubleSpinBox">
+               <property name="maximum">
+                <double>99999.990000000005239</double>
+               </property>
+               <property name="prefix">
+                <string>R </string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="productQuantityFieldFrame">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_quantityField">
+             <property name="spacing">
+              <number>6</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="productQuantityLabel">
+               <property name="text">
+                <string>Quantity</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="productQuantitySpinBox">
+               <property name="maximum">
+                <number>999999</number>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="productTypeLabel">
+         <property name="text">
+          <string>Type</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="productTypeButtonsFrame">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_typeButtons">
+          <property name="spacing">
+           <number>12</number>
+          </property>
+          <item>
+           <widget class="QRadioButton" name="typeBaseRadioButton">
+            <property name="text">
+             <string>Base</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="typeTaxedRadioButton">
+            <property name="text">
+             <string>Taxed</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="typeDiscountedRadioButton">
+            <property name="text">
+             <string>Discounted</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="productTypeComboBox">
+         <property name="visible">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="discountThresholdLabel">
+         <property name="text">
+          <string>Discount Threshold</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="discountThresholdFrame">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_discountThreshold">
+          <property name="spacing">
+           <number>10</number>
+          </property>
+          <item>
+           <widget class="QSpinBox" name="discountThresholdSpinBox">
+            <property name="maximum">
+             <number>999</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="discountThresholdUnitsLabel">
+            <property name="text">
+             <string>units</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="taxRateLabel">
+         <property name="text">
+          <string>Tax Rate</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="taxRateComboBox"/>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_editor">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="addProductButton">
+         <property name="text">
+          <string>Add Product</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="updateProductButton">
+         <property name="text">
+          <string>Update Product</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="removeProductButton">
+         <property name="text">
+          <string>Remove Product</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="bottomSectionFrame">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_bottomSection">
+      <property name="spacing">
+       <number>18</number>
+      </property>
+      <item>
+       <widget class="QGroupBox" name="importGroupBox">
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_import">
+         <item>
+          <widget class="QLabel" name="importTitleLabel">
+           <property name="text">
+            <string>Import Products (CSV)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_importTop">
+           <property name="spacing">
+            <number>12</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="browseCsvButton">
+             <property name="text">
+              <string>Choose File</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="csvPathLineEdit">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="placeholderText">
+              <string>products_catalogue.csv</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="previewCsvButton">
+             <property name="text">
+              <string>Preview</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="importCsvButton">
+             <property name="text">
+              <string>Import Data</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QTableWidget" name="importPreviewTableWidget">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>150</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>240</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="importHelperLabel">
+           <property name="text">
+            <string>Preview the incoming catalogue rows before importing them into the live inventory.</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="importSummaryGroupBox">
+        <property name="title">
+         <string/>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>280</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>360</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_importSummary">
+         <item>
+          <widget class="QLabel" name="importSummaryTitleLabel">
+           <property name="text">
+            <string>Import Summary</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="importSummaryStatusLabel">
+           <property name="text">
+            <string>Preview ready</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="importSummaryRowsLabel">
+           <property name="text">
+            <string>3 preview rows ready</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="importSummaryFileLabel">
+           <property name="text">
+            <string>products_catalogue.csv loaded</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="editorNotesFrame">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_editorNotes">
+            <item>
+             <widget class="QLabel" name="editorStockAlertLabel">
+              <property name="text">
+               <string>112 stock snaps synced</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="editorSyncLabel">
+              <property name="text">
+               <string>3 SKU flags need review</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="importSummaryHintLabel">
+           <property name="text">
+            <string>Review flagged catalogue rows before final import.</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_importSummary">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Expanding</enum>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="statusFrame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_status">
+      <item>
+       <widget class="QLabel" name="inventoryStatusLabelTitle">
+        <property name="text">
+         <string>Inventory Status</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="inventoryStatusLabel">
+        <property name="text">
+         <string>Catalogue ready</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_status">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="mutexStatusLabelTitle">
+        <property name="text">
+         <string>Mutex Lock</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="mutexStatusLabel">
+        <property name="text">
+         <string>Unlocked</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

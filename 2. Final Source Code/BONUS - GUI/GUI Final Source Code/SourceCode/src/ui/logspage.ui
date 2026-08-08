@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LogsPage</class>
+ <widget class="QWidget" name="LogsPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Logs</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_main">
+   <item>
+    <widget class="QLabel" name="logsTitleLabel">
+     <property name="text">
+      <string>Logs</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="filterFrame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_filter">
+      <property name="spacing">
+       <number>12</number>
+      </property>
+      <item>
+       <widget class="QComboBox" name="warehouseFilterComboBox"/>
+      </item>
+      <item>
+       <widget class="QComboBox" name="statusFilterComboBox"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="logSearchLineEdit">
+        <property name="placeholderText">
+         <string>Search captured records...</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="fromDateLineEdit">
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="toDateLineEdit">
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="mainSplitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QGroupBox" name="logsTableGroupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_table">
+       <item>
+        <widget class="QLabel" name="systemLogsTitleLabel">
+         <property name="text">
+          <string>Processed Item Records</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="logsTableWidget"/>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_logsFooter">
+         <item>
+          <widget class="QLabel" name="totalLogEntriesLabel">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="totalLogEntriesTitle">
+           <property name="text">
+            <string>processed orders</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="failedOrdersCountLabel">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="failedOrdersTitle">
+           <property name="text">
+            <string>failed orders</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_logsFooter">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="logsPrevPageButton">
+           <property name="minimumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>&lt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="logsPage1Button">
+           <property name="minimumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="logsPage2Button">
+           <property name="minimumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="logsPage3Button">
+           <property name="minimumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="logsNextPageButton">
+           <property name="minimumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>34</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>&gt;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="logDetailsGroupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>320</width>
+        <height>0</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_details">
+       <item>
+        <widget class="QLabel" name="logDetailsTitleLabel">
+         <property name="text">
+          <string>Record Details</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="selectedOrderIdLabel">
+         <property name="text">
+          <string>--</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_detailMeta">
+         <item>
+          <widget class="QLabel" name="selectedWarehouseLabel">
+           <property name="text">
+            <string>--</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="selectedStatusLabel">
+           <property name="text">
+            <string>--</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_detailMeta">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="detailItemsTableWidget"/>
+       </item>
+       <item>
+        <widget class="QFrame" name="detailsTotalsFrame">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <layout class="QFormLayout" name="formLayout_detailsTotals">
+          <item row="0" column="0">
+           <widget class="QLabel" name="lblDetailsTotalItems">
+            <property name="text">
+             <string>Total Items</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="selectedTotalItemsLabel">
+            <property name="text">
+             <string>--</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="lblDetailsOrderId">
+            <property name="text">
+             <string>Subtotal</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLabel" name="detailsSubtotalLabel">
+            <property name="text">
+             <string>R 1,000.00</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="lblDetailsWarehouse">
+            <property name="text">
+             <string>Tax</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="detailsTaxLabel">
+            <property name="text">
+             <string>R 127.50</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="lblDetailsStatus">
+            <property name="text">
+             <string>Total Value</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLabel" name="detailsGrandTotalLabel">
+            <property name="text">
+             <string>R 1,127.50</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="lblDetailsFailureReason">
+            <property name="text">
+             <string>Reason</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLabel" name="selectedFailureReasonLabel">
+            <property name="text">
+             <string>--</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="detailsHistoryLabel">
+        <property name="text">
+         <string>Processing History</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="logDetailsTextEdit">
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+         <property name="placeholderText">
+          <string>Select a processed item record to view details.</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="actionStripFrame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_actions">
+      <item>
+       <widget class="QPushButton" name="exportSelectedCsvButton">
+        <property name="text">
+         <string>Export Selected CSV</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="exportAllCsvButton">
+        <property name="text">
+         <string>Export All CSV</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="openLogFolderButton">
+        <property name="text">
+         <string>Open Log Folder</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_actions">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="logExportStatusLabel">
+        <property name="text">
+         <string>Run an orders batch to populate this view.</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

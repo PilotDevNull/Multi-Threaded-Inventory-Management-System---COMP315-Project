@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AnalyticsPage</class>
+ <widget class="QWidget" name="AnalyticsPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Analytics</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_main">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QScrollArea" name="analyticsScrollArea">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <widget class="QWidget" name="analyticsScrollContent">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1180</width>
+        <height>820</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_scrollContent">
+       <property name="spacing">
+        <number>18</number>
+       </property>
+       <property name="leftMargin">
+        <number>30</number>
+       </property>
+       <property name="topMargin">
+        <number>28</number>
+       </property>
+       <property name="rightMargin">
+        <number>30</number>
+       </property>
+       <property name="bottomMargin">
+        <number>24</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="analyticsTitleLabel">
+         <property name="text">
+          <string>Analytics</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_kpi">
+         <property name="spacing">
+          <number>14</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="kpiFrame1">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_kpi1">
+            <item>
+             <widget class="QLabel" name="kpiTitle1">
+              <property name="text">
+               <string>Total Orders</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="totalOrdersValueLabel">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="kpiFrame2">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_kpi2">
+            <item>
+             <widget class="QLabel" name="kpiTitle2">
+              <property name="text">
+               <string>Successful Orders</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="successfulOrdersValueLabel">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="kpiFrame3">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_kpi3">
+            <item>
+             <widget class="QLabel" name="kpiTitle3">
+              <property name="text">
+               <string>Failed Orders</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="failedOrdersValueLabel">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="kpiFrame4">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_kpi4">
+            <item>
+             <widget class="QLabel" name="kpiTitle4">
+              <property name="text">
+               <string>Captured Revenue</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="totalRevenueValueLabel">
+              <property name="text">
+               <string>R 0.00</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="kpiFrame5">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_kpi5">
+            <item>
+             <widget class="QLabel" name="kpiTitle5">
+              <property name="text">
+               <string>Captured Lost Revenue</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="avgOrderValueValueLabel">
+              <property name="text">
+               <string>R 0.00</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_charts">
+         <property name="spacing">
+          <number>16</number>
+         </property>
+         <item>
+          <widget class="QGroupBox" name="revenueByWarehouseFrame">
+           <property name="title">
+            <string/>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_revenueChart">
+            <item>
+             <widget class="QLabel" name="revenueByWarehouseTitleLabel">
+              <property name="text">
+               <string>Captured Revenue by Warehouse</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="revenueChartCanvasFrame">
+              <property name="frameShape">
+               <enum>QFrame::NoFrame</enum>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_revenueChartCanvas"/>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="failureReasonsFrame">
+           <property name="title">
+            <string/>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_failureChart">
+            <item>
+             <widget class="QLabel" name="failureReasonsTitleLabel">
+              <property name="text">
+               <string>Status Breakdown</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="failureChartCanvasFrame">
+              <property name="frameShape">
+               <enum>QFrame::NoFrame</enum>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_failureChartCanvas"/>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QSplitter" name="tablesSplitter">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QGroupBox" name="successGroupBox">
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_success">
+           <item>
+            <widget class="QLabel" name="successSummaryTitleLabel">
+             <property name="text">
+              <string>Successful Orders Summary</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTableWidget" name="successfulOrdersTableWidget"/>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QGroupBox" name="failGroupBox">
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_fail">
+           <item>
+            <widget class="QLabel" name="failSummaryTitleLabel">
+             <property name="text">
+              <string>Unsuccessful Orders Summary</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTableWidget" name="unsuccessfulOrdersTableWidget"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="footerFrame">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>64</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>64</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_footer">
+      <property name="leftMargin">
+       <number>30</number>
+      </property>
+      <property name="topMargin">
+       <number>12</number>
+      </property>
+      <property name="rightMargin">
+       <number>30</number>
+      </property>
+      <property name="bottomMargin">
+       <number>12</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="lastReportGeneratedLabelTitle">
+        <property name="text">
+         <string>Snapshot Generated</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lastReportGeneratedLabel">
+        <property name="text">
+         <string>Not yet run</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_footer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="exportReadyLabelTitle">
+        <property name="text">
+         <string>Export</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="exportReadyLabel">
+        <property name="text">
+         <string>No</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
