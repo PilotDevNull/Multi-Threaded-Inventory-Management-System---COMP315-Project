@@ -23,11 +23,11 @@
 
 ## Abstract
 
-Nexus Logistics runs several warehouses, each with its own way of managing stock, which makes inventory inconsistent and slows order handling. **Group Twelve Software Solutions LTD** was contracted to replace that with a single, central **multi-threaded inventory and order processing system** written in C++.
+Nexus Logistics runs several warehouses, each with its own way of managing stock, which makes inventory inconsistent and slows order handling. **We, Group Twelve Software Solutions LTD,** were contracted to replace that with a single, central **multi-threaded inventory and order processing system** written in C++.
 
 The system loads a catalogue of 1,000 products and the pending orders of five warehouses (1,300 orders), then processes those orders with a user-chosen number of worker threads, from 1 to 32. It is built as a producer–consumer pipeline: five warehouse threads parse order files into a shared **OrderPool**, and worker threads drain it, fulfilling every cart item against one central **InventorySystem** and logging the outcome as `SUCCESS`, `PARTIAL` or `FAILED`. Every shared structure is protected by a deliberately chosen primitive (a mutex, a mutex with a condition variable, or an atomic), and no thread ever holds two locks at once, which rules out deadlock by construction.
 
-Processing time falls from about 20 seconds on one thread to about 650 milliseconds on 32, a speed-up of about 31×. In a rebuild-and-rerun check for this README, final stock matched the analytics records exactly, with no negative quantities. An analytics subsystem turns the per-item records into global and per-warehouse reports that export to CSV for Excel or Power BI, and the inventory saves itself when the program closes. A Qt 6 graphical interface was also started as a bonus.
+Processing time falls from about 20 seconds on one thread to about 650 milliseconds on 32, a speed-up of about 31×. When we rebuilt the CLI from source and re-ran it for this README, final stock matched the analytics records exactly, with no negative quantities. An analytics subsystem turns the per-item records into global and per-warehouse reports that export to CSV for Excel or Power BI, and the inventory saves itself when the program closes. We also started a Qt 6 graphical interface as a bonus.
 
 **Keywords:** C++17, multi-threading, producer–consumer, mutex, condition variable, std::atomic, polymorphism, smart pointers, STL, inventory management, analytics.
 
@@ -92,7 +92,7 @@ Processing time falls from about 20 seconds on one thread to about 650 milliseco
 | Compiled GUI (Windows, zipped)           | [`3. Final Compiled Project exes/2. BONUS - GUI/GUI Final.zip`](3.%20Final%20Compiled%20Project%20exes/2.%20BONUS%20-%20GUI/GUI%20Final.zip)                                |
 
 > [!NOTE]
-> The report runs to 34 pages because it contains 31 diagrams and seven pages of formatting; without those it is 24 pages, within the page requirement.
+> Our report runs to 34 pages because it contains 31 diagrams and seven pages of formatting; without those it is 24 pages, within the page requirement.
 
 ## Repository map
 
@@ -104,7 +104,7 @@ Processing time falls from about 20 seconds on one thread to about 650 milliseco
 │
 ├── 1. FinalReport/
 │   ├── Group Twelve Software Solutions LTD Final Report.pdf
-│   └── FinalReport README.txt                  note on the report's page count
+│   └── FinalReport README.txt                  note on our report's page count
 │
 ├── 2. Final Source Code/
 │   ├── CLI Source Code (Main Submission)/
@@ -170,7 +170,7 @@ g++ -std=c++17 -O2 -pthread -o nexus *.cpp
 ./nexus
 ```
 
-The source has no Windows-only dependencies, and this build was checked on Linux with g++ (see [Section 7.4](#74-an-independent-rebuild)).
+The source has no Windows-only dependencies, and we also checked this build on Linux with g++ (see [Section 7.4](#74-an-independent-rebuild)).
 
 ### C. Run the pre-built GUI (bonus)
 
@@ -215,7 +215,7 @@ Nexus Logistics operates several warehouses, each with its own management system
 | Persistence              | On exit, the inventory is written to `Catalog/Updated_Products.csv`, so the system "saves itself"                                                            |
 | Interfaces               | A full CLI for resource-limited machines, and a Qt GUI (bonus)                                                                                               |
 
-The catalogue holds **1,000 products in 11 categories**, and the five order files hold **1,300 orders** (260 each). Thread counts up to 32 were tested; the cap is a design choice and the limit is configurable in code.
+The catalogue holds **1,000 products in 11 categories**, and the five order files hold **1,300 orders** (260 each). We tested thread counts up to 32; the cap is a design choice and the limit is configurable in code.
 
 [Back to top ↑](#top)
 
@@ -227,7 +227,7 @@ The catalogue holds **1,000 products in 11 categories**, and the five order file
 
 <p align="center"><a href="docs/readme/report/system-flowchart.png"><img src="docs/readme/report/system-flowchart.png" width="100%" alt="Flowchart of the system: initialisation from CSV, the CLI/GUI menu, the OrderPool, worker threads, order status decisions, the central inventory and the analytics manager"></a></p>
 
-<p align="center"><sub><b>Figure 1.</b> System flowchart from the report (select to enlarge). Its menu numbering is from an earlier design; the final CLI has nine options (Section 5).</sub></p>
+<p align="center"><sub><b>Figure 1.</b> Our system flowchart from the final report (select to enlarge). Its menu numbering is from an earlier design; the final CLI has nine options (Section 5).</sub></p>
 
 1. On start-up the **InventorySystem** loads `Products.csv` into memory.
 2. **Five warehouse threads** read `Warehouse1..5_Orders.csv` and push `Order` objects into the shared **OrderPool**.
@@ -468,7 +468,7 @@ The screenshots below are in the order they were captured. Select any image to o
 > [!WARNING]
 > The GUI is a bonus component and is **incomplete**. It is provided as-is and is not the basis for assessment.
 
-Andiswa Hlengwa designed and built a **Qt 6** interface (Widgets, Concurrent and Charts) around the same C++ back end. It adds about 9,000 lines in `src/`, organised in three layers so the UI never touches the inventory directly:
+Our GUI lead, Andiswa Hlengwa, designed and built a **Qt 6** interface (Widgets, Concurrent and Charts) around the same C++ back end. It adds about 9,000 lines in `src/`, organised in three layers so the UI never touches the inventory directly:
 
 | Layer                | Contents                                                                                                    |
 |----------------------|-------------------------------------------------------------------------------------------------------------|
@@ -519,15 +519,15 @@ Select any image to open it at full size.
 
 ### 7.1 Manual test plan
 
-Testing was manual, through structured CLI interaction with normal and edge-case inputs, repeated through development and on the final build. Concurrency was tested at 4, 8, 16 and 32 threads.
+Testing was manual, through structured CLI interaction with normal and edge-case inputs, repeated through development and on the final build. We tested concurrency at 4, 8, 16 and 32 threads.
 
 <p align="center"><img src="docs/readme/report/test-table.png" width="760" alt="Table of 17 test scenarios with input, expected result and outcome, all passing"></p>
 
-<p align="center"><sub><b>Figure 5.</b> The 17 test scenarios from the report, all recorded as passing.</sub></p>
+<p align="center"><sub><b>Figure 5.</b> Our 17 test scenarios, all recorded as passing.</sub></p>
 
 ### 7.2 Inventory consistency
 
-Correctness was checked by comparing three things: the initial stock from the CSV, the final stock after processing, and the quantities the analytics report as sold. They matched, with no negative stock and no duplicate deductions, even at 32 workers.
+We checked correctness by comparing three things: the initial stock from the CSV, the final stock after processing, and the quantities the analytics report as sold. They matched, with no negative stock and no duplicate deductions, even at 32 workers.
 
 ### 7.3 Scaling
 
@@ -535,15 +535,15 @@ Time to process the 1,300-order backlog, measured with `std::chrono::high_resolu
 
 <p align="center"><img src="docs/readme/report/performance-table.png" width="560" alt="Table of thread count, approximate time and speed-up: 1 thread about 20,000 ms, 32 threads about 650 ms, 30.8 times faster"></p>
 
-<p align="center"><sub><b>Figure 6.</b> Report measurements on the team's Windows machine.</sub></p>
+<p align="center"><sub><b>Figure 6.</b> Our Windows measurements, as recorded in the final report.</sub></p>
 
 Each order includes a simulated 1 ms processing delay (standing in for a database write or network call); without it the work is so fast that thread scaling does not show. The speed-up is therefore largely overlapping that wait, and it flattens once the inventory mutex and the hardware become the limit.
 
 ### 7.4 An independent rebuild
 
-For this README the CLI was rebuilt from source on Linux (g++, `-std=c++17 -O2 -pthread`) and run against the shipped data. It compiled without changes and loaded **1,000 products** and **1,300 orders**.
+For this README we rebuilt the CLI from source on Linux (g++, `-std=c++17 -O2 -pthread`) and ran it against the shipped data. It compiled without changes and loaded **1,000 products** and **1,300 orders**.
 
-| Threads | Time (ms), Linux, 2 cores | Speed-up | Report (Windows) |
+| Threads | Time (ms), Linux, 2 cores | Speed-up | Our Windows runs |
 |--------:|--------------------------:|---------:|-----------------:|
 | 1       | 1,444                     | 1.0×     | 1.0×             |
 | 4       | 362                       | 4.0×     | ~4.0×            |
@@ -551,9 +551,9 @@ For this README the CLI was rebuilt from source on Linux (g++, `-std=c++17 -O2 -
 | 16      | 90                        | 16.0×    | ~15.4×           |
 | 32      | 46                        | 31.4×    | ~30.8×           |
 
-The scaling matches the report. The absolute times differ because of the platform: the report's single-thread figure of about 20 s is roughly 15 ms per order, which suggests Windows rounds the 1 ms sleep up to its coarser timer tick, while Linux honours it (1,300 × about 1.1 ms ≈ 1.4 s).
+The scaling matches what we measured on Windows. The absolute times differ because of the platform: our single-thread Windows figure of about 20 s is roughly 15 ms per order, which suggests Windows rounds the 1 ms sleep up to its coarser timer tick, while Linux honours it (1,300 × about 1.1 ms ≈ 1.4 s).
 
-Stock integrity was checked too. After a 32-thread run, the exported `Updated_Products.csv` was compared with the starting catalogue and the exported analytics: for all 1,000 products, *starting stock − units sold = final stock*, exactly, with **no negative quantities** (4,597 units sold in that run).
+We checked stock integrity too. After a 32-thread run, we compared the exported `Updated_Products.csv` with the starting catalogue and the exported analytics: for all 1,000 products, *starting stock − units sold = final stock*, exactly, with **no negative quantities** (4,597 units sold in that run).
 
 ### 7.5 Limitations and assumptions
 
@@ -577,7 +577,7 @@ Duplicate order IDs appeared only when all five warehouse threads ran together. 
 
 ### 8.2 STL is not thread-safe
 
-Early code assumed it was. Three fixes followed:
+Our early code assumed it was. Three fixes followed:
 
 | Component          | Problem                                                  | Fix                                              |
 |--------------------|----------------------------------------------------------|--------------------------------------------------|
@@ -594,7 +594,7 @@ The first design had each warehouse thread load orders, process them, update the
 - **The central inventory** is the single authority for stock.
 - **The AnalyticsManager** replaces per-warehouse logs with one report system.
 
-Two late changes, the `StandardProduct` class (to enforce the Perishables-only rule) and the product category attribute, cut across the CLI, sorting, analytics and CSV export. Their cost was the main lesson: identify cross-cutting concerns early and put them in the class model before the implementation sets.
+Two late changes, the `StandardProduct` class (to enforce the Perishables-only rule) and the product category attribute, cut across the CLI, sorting, analytics and CSV export. Their cost was our main lesson: identify cross-cutting concerns early and put them in the class model before the implementation sets.
 
 [Back to top ↑](#top)
 
@@ -602,9 +602,9 @@ Two late changes, the `StandardProduct` class (to enforce the Perishables-only r
 
 ## 9 Conclusion
 
-The Nexus Logistics system meets its core objectives: a central inventory of 1,000 products, five warehouses loading 1,300 orders concurrently, 1 to 32 configurable worker threads, detailed analytics with CSV export, and an inventory that persists between runs. Its concurrency design is deadlock-free by rule and preserves stock exactly under every thread count tried, while processing time falls roughly in line with thread count, from about 20 s to about 650 ms in the report's measurements.
+Our Nexus Logistics system meets its core objectives: a central inventory of 1,000 products, five warehouses loading 1,300 orders concurrently, 1 to 32 configurable worker threads, detailed analytics with CSV export, and an inventory that persists between runs. Its concurrency design is deadlock-free by rule and preserves stock exactly under every thread count tried, while processing time falls roughly in line with thread count, from about 20 s to about 650 ms in our measurements.
 
-Three lessons stand out. Concurrency does not compose transparently: two correct pieces of code can misbehave when interleaved. Thread-aware logging was a better debugging tool than a debugger for non-deterministic faults. And RAII tools such as `lock_guard` and `unique_ptr` are engineering controls, not style, because they make a whole class of defects impossible to write.
+Three lessons stand out for us. Concurrency does not compose transparently: two correct pieces of code can misbehave when interleaved. Thread-aware logging was a better debugging tool than a debugger for non-deterministic faults. And RAII tools such as `lock_guard` and `unique_ptr` are engineering controls, not style, because they make a whole class of defects impossible to write.
 
 [Back to top ↑](#top)
 
@@ -624,13 +624,13 @@ Williams, A. (2019) *C++ Concurrency in Action: Practical Multithreading*. 2nd e
 
 ## AI disclosure
 
-The final report states that ChatGPT was used as a supplementary aid: refining the wording of report sections, improving formatting and structure, clarifying concepts in multi-threading and C++ practice, and reviewing and suggesting improvements to existing team-written code, without generating full implementations. The repository's earlier README also notes that AI-assisted tools such as GitHub Copilot may have been used for code suggestions, boilerplate and debugging. The group states that all code was written, tested and validated by its members, that AI was not used for formal testing or evaluation, and that design decisions and architecture are the group's own.
+We used AI tools as a supplementary aid while writing our final report: refining the wording of sections, improving formatting and structure, clarifying concepts in multi-threading and C++ practice, and reviewing and suggesting improvements to our own code, without generating full implementations. AI-assisted coding tools may also have been used for code suggestions, boilerplate and debugging. All code was written, tested and validated by our members, AI was not used for formal testing or evaluation, and the design decisions and architecture are our own.
 
-This README was drafted with the help of Claude (Anthropic) from the report and the source code. Its performance and stock-integrity figures in Section 7.4 come from rebuilding the CLI from source and running it, and its other figures were checked against the report and the code.
+This README was drafted with the help of Claude (Anthropic) from our report and source code. The performance and stock-integrity figures in Section 7.4 come from rebuilding the CLI from source and running it, and the other figures were checked against our report and code.
 
 ## Licence and attribution
 
-No licence file has been added to this repository. The project is university coursework by Group Twelve Software Solutions LTD, and "Nexus Logistics" is the fictional client of the assignment.
+No licence file has been added to this repository. This project is our university coursework as Group Twelve Software Solutions LTD, and "Nexus Logistics" is the fictional client of the assignment.
 
 <p align="center"><sub>GROUP TWELVE SOFTWARE SOLUTIONS · COMP315 · NEXUS LOGISTICS · UNIVERSITY OF KWAZULU-NATAL · 2026</sub></p>
 
